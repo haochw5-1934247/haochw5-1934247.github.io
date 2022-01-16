@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="anExternal.css">
         <style>
         p.a {
             font: 15px Arial, sans-serif;
@@ -16,7 +17,7 @@
         <p class="a">This is a paragraph.</p>
         <p class="b">This is another paragraph.</p>
         <h2>Two pictures that were originally different sizes, resized to 50px by 50px.</h2>
-            <a href="https://aquaplus.jp/wa2vita/character/ogiso.html"></a>
+            <a href="https://aquaplus.jp/wa2vita/character/ogiso.html">
                 <img src="https://aquaplus.jp/wa2vita/character/images/character_ogiso.png" title="小木曽雪菜" style="width:50px;height:50px">
             </a>
             <a href="https://whitealbum2.jp/character/touma.html">
@@ -47,17 +48,22 @@
             <div class="centered">霞ヶ丘先輩！</div>
         </div>
         <h2>A photo with 20 pixel margins on each side.</h2>
-        <style>
-            img.ex1{
-                margin: 20px 20px 20px 20px
-            }
-        </style>
-        <img class=ex.1>
-        <img src="https://github.com/haochw5-1934247/haochw5-1934247.github.io/blob/main/Utaha-Senpai.jpg?raw=true" style="width:640px;">
+        <img src="https://github.com/haochw5-1934247/haochw5-1934247.github.io/blob/main/Utaha-Senpai.jpg?raw=true" style="width:640px;padding:20px">
         <h2>Text with a border that uses dotted lines.</h2>
         <style>p.dashed {
             border-style: dashed;
         }</style>
         <p class="dashed">Text with a border that uses dotted lines.</p>
+        <h1>Master</h1>
+        <h2>A floated element and Rounded corners</h2>
+        <style>
+            .right {
+          float: right;
+            }
+        </style>
+        <div class="right">
+            <img src="https://github.com/haochw5-1934247/haochw5-1934247.github.io/blob/main/Utaha-Senpai.jpg?raw=true" style="width:640px;">
+        </div>
+        <p id="rcorners2">Rounded corners!</p>
     </body>
 </html>
